@@ -10,7 +10,7 @@ shader format             | some IR      | SPIR-V (currently) | SPIR-V
 target platforms          | web          | web (asm first), native | web (asm first)
 **Features:**             |              |             |
 command buffers           | X            | X           | X
-secondary command buffers |              |             | [experimental](https://github.com/kvark/WebGLNext-Proposals/blob/obsidian/Obsidian-Mozilla/README.md#secondary-command-buffers)
+secondary command buffers |              | TBD         | [experimental](https://github.com/KhronosGroup/WebGLNext-Proposals/tree/master/Obsidian-Mozilla#secondary-command-buffers)
 pipeline state objects    | X            | X           | X
 compute pipelines         | X            | X           | X
 tessellation              |              |             |
