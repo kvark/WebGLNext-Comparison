@@ -10,12 +10,12 @@ prototype implementation  | [Webkit](https://bugs.webkit.org/show_bug.cgi?id=167
 shader format             | some IR      | SPIR-V (currently) | SPIR-V
 target platforms          | JS, WASM?    | WASM, JS, native | WASM, JS
 **Features:**             |              |             |
-command buffers           | X            | X           | X
-secondary command buffers |              | TBD         | [experimental](https://github.com/KhronosGroup/WebGLNext-Proposals/tree/master/Obsidian-Mozilla#secondary-command-buffers)
-pipeline state objects    | X            | X           | X
-compute pipelines         | X            | X           | X
-tessellation              |              |             |
-descriptor sets           |              | X           | X
-render sub-passes         |              | TBD         | X
-transient resources       |              | TBD         | X
-resource layouts          |              | X           | X
+command buffers           | +            | +           | +
+secondary command buffers | -            | ?           | [experimental](https://github.com/KhronosGroup/WebGLNext-Proposals/tree/master/Obsidian-Mozilla#secondary-command-buffers)
+pipeline state objects    | +            | +           | +
+compute pipelines         | +            | +           | +
+tessellation              | -            | -           | -
+descriptor sets           | -            | +           | +
+render sub-passes         | -            | ?           | +
+transient resources       | -            | ?           | +
+resource layouts          | -            | +           | +
