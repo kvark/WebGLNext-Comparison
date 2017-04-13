@@ -13,6 +13,7 @@ run-time validation       | always       | always      | optional
 **Features:**             |              |             |
 command buffers           | +            | +           | +
 secondary command buffers | -            | ?           | [experimental](https://github.com/KhronosGroup/WebGLNext-Proposals/tree/master/Obsidian-Mozilla#secondary-command-buffers)
+multiple command queues   | +            | ?           | +
 pipeline state objects    | +            | +           | +
 compute pipelines         | +            | +           | +
 descriptor sets           | -            | +           | +
